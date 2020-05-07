@@ -1,0 +1,18 @@
+.btn-yours {
+  color: #011627;
+  background: #FF9F1C;
+  transition: 0.2s;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 15px 25px;
+  border: 1px solid #011627;
+}
+
+.btn-yours:hover {
+  color: #FF9F1C;
+  background: #011627;
+  text-decoration: none;
+  padding: 7px 15px;
+  border: 1px solid #FF9F1C;
+  margin : 8px 10px;
+}

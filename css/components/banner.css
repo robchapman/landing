@@ -1,0 +1,13 @@
+.banner {
+  height: 600px;
+  color: #FDFFFC;
+  font-weight: bolder;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+

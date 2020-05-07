@@ -1,0 +1,102 @@
+/* Your card CSS file */
+.category-holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-category {
+  color: white;
+  font-weight: bolder;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 2px 2px 8px grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-feature-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-feature {
+  overflow: hidden;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+  box-shadow: 2px 2px 8px grey;
+}
+
+.card-feature > img {
+  width: 150px;
+  height: 150px;
+  margin: 0px 10px 0px 0px;
+  object-fit: cover;
+}
+
+.card-feature-title {
+
+}
+
+.card-feature-description {
+  margin: 0px 10px 0px 0px;
+}
+
+.card-trip {
+  overflow: hidden;
+  height: 350px;
+  margin: 10px auto;
+  box-shadow: 2px 2px 8px grey;
+  display: flex;
+  justify-content: space-between;
+  margin: 10 auto;
+  flex-direction: column;
+}
+
+.card-trip-bottomtab {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 20px 20px 20px;
+  align-items: center;
+}
+
+.card-trip-img {
+  height: 250px;
+  margin: 0px 0px 0px 0px;
+  object-fit: cover;
+}
+
+.card-trip-avatarprice {
+  position: relative;
+}
+
+.card-trip-avatar {
+  position: absolute;
+  top: -68px;
+  left: 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 0px;
+  object-fit: cover;
+  border: 1px solid white;
+}
+
+.card-trip-price {
+  margin: 0px;
+}
+
+.card-trip-title {
+  margin: 5px;
+}
+
+.card-trip-description {
+  margin: 5px;
+}
+
